@@ -19,6 +19,7 @@ body {
   font-family: "Lato", sans-serif;
   font-family: "Oswald", sans-serif;
   overflow-x: hidden;
+  background-color: #f9fafc;
 }
 
 /*===============================================================
@@ -28,12 +29,14 @@ h1 {
   font-family: "Oswald", sans-serif;
   font-size: 32px;
   font-weight: 600;
+  line-height: 50px;
 }
 
 h2 {
   font-family: "Lato", sans-serif;
   font-size: 24px;
   font-weight: 600;
+  line-height: 30px;
 }
 
 h3 {
@@ -46,6 +49,15 @@ h4 {
   font-family: "Lato", sans-serif;
   font-size: 17px;
   font-weight: 400;
+  line-height: 25px;
+}
+
+p {
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  line-height: 30px;
 }
 
 a {
@@ -59,5 +71,133 @@ a {
 a:hover {
   text-decoration: none;
   color: white;
+}
+
+/*===============================================================
+Navbar Css
+=============================================================*/
+nav {
+  border-bottom: 1px solid #ebebeb;
+}
+
+/*===============================================================
+Hero Css
+=============================================================*/
+.hero {
+  background: url(../img/heroimg.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.hero .tag {
+  background-color: #ff565c;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-bottom: 35px;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+/*===============================================================
+Section 1 Css
+=============================================================*/
+.section-1 {
+  padding: 50px 0;
+}
+
+.section-1 .side {
+  background-color: white;
+}
+
+.section-1 .side .categorys {
+  padding: 20px 25px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section-1 .side .categorys .number {
+  color: #dfdbdb;
+}
+
+.section-1 .entertainment {
+  background: url(../img/heroimg-1.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 0 90px 0;
+}
+
+.section-1 .entertainment .tag {
+  color: white;
+  background: #ff565c;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.section-1 .entertainment .content {
+  margin-left: 25px;
+}
+
+.finance {
+  background: url(../img/heroimg-2.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px 15px 80px 0;
+}
+
+.finance .tag {
+  color: white;
+  background: #ff565c;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.finance .content {
+  margin-left: 25px;
+}
+
+.gaming {
+  background: url(../img/heroimg-3.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px 15px 80px 0;
+}
+
+.gaming .tag {
+  color: white;
+  background: #ff565c;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.gaming .content {
+  margin-left: 25px;
 }
 /*# sourceMappingURL=style.css.map */
