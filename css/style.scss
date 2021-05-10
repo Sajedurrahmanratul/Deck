@@ -45,7 +45,7 @@ h2 {
   font-family: "Lato", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 h3 {
@@ -200,5 +200,59 @@ Section 1 Css
 
   .content {
     margin-left: 25px;
+  }
+}
+
+/*===============================================================
+Section 1 side Css
+=============================================================*/
+
+.section1-side {
+  .finance {
+    background: url(../img/heroimg-2.jpg);
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 15px 80px 0;
+
+    .tag {
+      color: white;
+      background: $primary-color;
+      display: inline-block;
+      padding: 10px 15px;
+      margin-bottom: 30px;
+    }
+
+    .content {
+      margin-left: 25px;
+    }
+  }
+  .side-banner {
+    background-color: #ff565c;
+    width: 100%;
+    height: fit-content;
+    padding: 45px 50px 45px 20px;
+  }
+
+  button {
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    padding: 15px 45px;
+    transition: 0.4s ease-in-out all;
+
+    &:hover {
+      background: white;
+    }
+
+    &:hover a {
+      color: $primary-color;
+    }
+
+    a {
+      color: white;
+    }
   }
 }
