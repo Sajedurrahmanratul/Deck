@@ -113,7 +113,7 @@ Hero Css
 Section 1 Css
 =============================================================*/
 .section-1 {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 }
 
 .section-1 .side {
@@ -205,7 +205,7 @@ Section 1 Css
 Section 1 side Css
 =============================================================*/
 .section1-side .finance {
-  background: url(../img/heroimg-2.jpg);
+  background: url(../img/hero_side-1.jpg);
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -234,7 +234,7 @@ Section 1 side Css
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 45px 50px 45px 20px;
+  padding: 72px 75px 150px 20px;
 }
 
 .section1-side button {
@@ -256,5 +256,29 @@ Section 1 side Css
 
 .section1-side button a {
   color: white;
+}
+
+.section1-side .technology {
+  background: url(../img/heroimg-4.jpg);
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px 15px 80px 0;
+}
+
+.section1-side .technology .tag {
+  color: white;
+  background: #ff565c;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+.section1-side .technology .content {
+  margin-left: 25px;
 }
 /*# sourceMappingURL=style.css.map */
